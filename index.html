@@ -7,10 +7,13 @@
 <body>
     <h1>Pomodoro timer</h1>
     <h2>Manage your time! Work smarter, not harder!</h2>
-    <div id="cnt"><img alt="pomodoro timer" src="IMG/pomodoro.png"></div>
-    <div></div>
-    <div></div>
-    <script type="text/javascript" src="js/pomodorist.js">
+  <div id="clock"><span id="timer"></span></div>
+     <div id="buttons"> <center>
+    <button id="start" onclick="startTimer(); checkSecond(sec);">Start</button>
+    <button id="stop" onclick="stopTimer()">Stop</button> </center>
+    </div>
+     <div><img src="IMG/pomodoro.png" alt="pomodoro timer"> </div>
+<script type="text/javascript" src="js/pomodorist.js">
     </script>
 </body>
 </html>
