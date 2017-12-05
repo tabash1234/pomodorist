@@ -12,11 +12,12 @@ h2{
 }
 
 body {
-    background-image: url("../../IMG/wall.jpg"); 
+    /*background-image: url("../../IMG/wall.jpg"); 
     background-repeat: no-repeat;
     width: 100%;
     height: auto;
-    background-size: cover; 
+    background-size: cover;*/
+    background: linear-gradient(to right, #d9a7c7, #fffcdc);
     }
 
 #clock {
@@ -27,11 +28,11 @@ body {
 	font-size: 50px;
 	padding: 10px;
 	border-radius: 3px;
-	background: #ff3300;
+	background: #f93f65;
     width: 150px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50;
+    margin-top: 50px;
 }
 
 
@@ -39,15 +40,16 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 #buttons {
     margin: auto;
+    margin-top: 50px;
 }
 
 #buttons button { 
-  background:#0475e5; 
+  background:#e55604; 
   border:none; 
   color:#fff; 
   cursor:pointer; 
@@ -62,4 +64,8 @@ img {
 
 #buttons button#stop{
   background : #f00;
+}
+
+#buttons button#break{
+  background : #ff3700;
 }
